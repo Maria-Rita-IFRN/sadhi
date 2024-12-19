@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.custom-navbar {
+    background-color: #3cbe41; 
+    color: #fff;
+}
+
+.nav-link{
+    color: #fff; 
+}
+
+section {
+    padding: 60px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #28a745;
+}
+
+.lead {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.col-md-6.text-left {
+    text-align: left; 
+}
+
+.col-md-6.text-right img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto; 
+}
+
+button {
+    font-size: 1rem;
+}
+
+.moving-image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    animation: move-image 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes move-image {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(20px); 
+    }
+}
+
+.turnos-menu {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-item.dropdown:hover .turnos-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    background-color: #3e8e41;
+}
